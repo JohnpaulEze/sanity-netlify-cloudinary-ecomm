@@ -1,0 +1,25 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "netlify dev",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@sanity/cli": "2.33.2",
+    "@sanity/client": "3.4.1",
+    "@sanity/image-url": "1.0.1",
+    "axios": "0.27.2",
+    "cloudinary": "1.32.0",
+    "dotenv": "16.0.2",
+    "netlify-cli": "11.7.1",
+    "next": "latest",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "description": "A \"Hello World\" application with multiple pages that shows how Next.js routing works."
+}
